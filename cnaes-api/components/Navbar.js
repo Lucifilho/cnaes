@@ -18,34 +18,9 @@ export default function Navbar(){
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
                   <Link class="nav-link active" aria-current="page" href="/">Home</Link>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link" aria-current="page" href="/fotos">Fotos</Link>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link" aria-current="page" href="/cnaes">Cnaes</Link>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link" aria-current="page" href="/financas">Finanças</Link>
-                </li>
-                <li class="nav-item dropdown">
-                  <Link class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Categorias
-                  </Link>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><Link class="dropdown-item" href="/categorias/acao">Ação</Link></li>
-                    <li><Link class="dropdown-item" href="/caregorias/aventura">Aventura</Link></li>
-                  
-                    <li><Link class="dropdown-item" href="/caregorias/comedia">Comédia</Link></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link" href="/sobre-nos">Sobre nós</Link>
-                </li>
+                </li>                
               </ul>
-              <form class="d-flex mt-3" role="search">
-                <button class="btn btn-success" type="submit">Buscar</button>
-              </form>
+            
             </div>
           </div>
         </div>
