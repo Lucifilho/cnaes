@@ -1,0 +1,121 @@
+@import "../variaveis.scss";
+
+.cnaePage{
+
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .pesquisa{
+
+        input{
+
+            width: 100%;
+            border: 1px solid $cinza;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    }
+
+    .listaCnae{
+        
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px 20px;
+        justify-content: space-between;
+        padding: 0;
+
+        li{
+
+            width: 100%;
+            max-width: 250px;
+            display: flex;
+            flex-direction: column;
+            min-height: 200px;
+            border: 1px solid $cinza;
+            justify-content: space-between;
+            padding: 10px;
+            text-align: justify;
+            border-radius: 5px;
+
+            span{
+
+                font-size: $fs20;
+                font-weight: 600;
+            }
+        }
+    }    
+
+    .pagination{
+        
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+        .previous,.next{
+            
+            a{
+
+                text-decoration: none;
+                background-color: $azulPrincipal;
+                color:$branco;
+                padding: 5px 10px;
+                border-radius: 2px;
+
+                &:hover{
+
+                    border: 1px solid $azulPrincipal;
+                    background-color: $branco;
+                    transform: scale(1.05);
+                    color: $azulPrincipal;
+
+                }
+            }
+        }
+
+        li{
+
+            a{
+
+                text-decoration: none;
+                background-color: $azulClaro;
+                color:$branco;
+                padding: 5px 10px;
+                border-radius: 2px;
+
+                &:hover{
+
+                    border: 1px solid $azulPrincipal;
+                    background-color: $azulPrincipal;
+                    transform: scale(1.05);
+                    color: $branco;
+
+                }
+            }
+        }
+
+        .active{
+
+            a{
+
+                text-decoration: none;
+                background-color: $azulPrincipal;
+                color:$branco;
+                padding: 8px 15px;
+                border-radius: 2px;
+
+                &:hover{
+
+                    border: 1px solid $azulPrincipal;
+                    background-color: $azulPrincipal;
+                    transform: scale(1.05);
+                    color: $branco;
+
+                }
+            }
+        }
+    }
+}

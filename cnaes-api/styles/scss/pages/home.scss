@@ -1,0 +1,29 @@
+.home{
+
+    width: 100%;
+
+
+    .portfolio{
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        justify-content: space-between;
+
+        .card{
+
+            width: 100%;
+            max-width: 350px;
+            border: 1px solid $cinza;
+            background-color: $azulPrincipal;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            color: $branco;
+            padding: 20px;
+        }
+    }
+}

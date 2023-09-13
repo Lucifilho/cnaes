@@ -1,0 +1,113 @@
+@import "../variaveis";
+
+.fotosPage{
+    
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+
+    .fotos{
+
+        display:flex;
+        flex-wrap:wrap;
+        gap:35px 11px;
+        padding:0;
+        justify-content: space-between;
+        
+        .card{
+
+            width:100%;
+            max-width: 250px;
+            border: 1px solid #cecece;
+            border-radius: 5px;
+
+            &:hover{
+
+                transform:scale(1.05);
+            }
+
+            .card-body{
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap:10px;
+
+                .card-title{
+
+                    text-align:justify;
+                }
+            }
+        }
+    }
+
+    .pagination{
+        
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+        .previous,.next{
+            
+            a{
+
+                text-decoration: none;
+                background-color: $azulPrincipal;
+                color:$branco;
+                padding: 5px 10px;
+                border-radius: 2px;
+
+                &:hover{
+
+                    border: 1px solid $azulPrincipal;
+                    background-color: $branco;
+                    transform: scale(1.05);
+                    color: $azulPrincipal;
+
+                }
+            }
+        }
+
+        li{
+
+            a{
+
+                text-decoration: none;
+                background-color: $azulClaro;
+                color:$branco;
+                padding: 5px 10px;
+                border-radius: 2px;
+
+                &:hover{
+
+                    border: 1px solid $azulPrincipal;
+                    background-color: $azulPrincipal;
+                    transform: scale(1.05);
+                    color: $branco;
+
+                }
+            }
+        }
+
+        .active{
+
+            a{
+
+                text-decoration: none;
+                background-color: $azulPrincipal;
+                color:$branco;
+                padding: 8px 15px;
+                border-radius: 2px;
+
+                &:hover{
+
+                    border: 1px solid $azulPrincipal;
+                    background-color: $azulPrincipal;
+                    transform: scale(1.05);
+                    color: $branco;
+
+                }
+            }
+        }
+    }
+}

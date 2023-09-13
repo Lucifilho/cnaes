@@ -1,0 +1,40 @@
+@import "components/header", "pages/fotosPage","pages/calculadora", "pages/home.scss" , "pages/noticiassPage","components/footer","pages/cnaesPage","pages/cnaePage";
+
+*{
+
+    margin: 0;
+    list-style-type: none;
+    outline: none;
+}
+
+h1,h2,h3,h4,span,p,a{
+
+    margin: 0;
+    text-decoration: none;
+
+}
+
+ul{
+
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+
+    display: flex;
+    justify-content: center;
+}
+
+#__next{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 955px;
+    justify-content: space-between;
+    
+}
+
+
